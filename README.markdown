@@ -3,13 +3,14 @@ OSQA jsMath Patch
 
 Adding [jsMath](http://www.math.union.edu/~dpvc/jsMath/) support to your [OSQA](http://www.osqa.net/).
 
-
+  
 *** authors ***
 
-This patch was coded by [Arlo Breault](http://thoughtherder.com/)  
-Testing and organized by Joseph Turian  
+This patch was coded by [Arlo Breault](http://thoughtherder.com/).  
+Tested and organized by Joseph Turian.  
 Thanks to the people at [MathOverflow](http://mathoverflow.net/) for figuring most of this out and providing the code.  
 
+  
 *** osqa ***
 
 For some reason, python's implementation of markdown is different from original perl spec,
@@ -27,11 +28,12 @@ Also, I've added the following to the settings file. This is to allow jsMath to 
 
 `FORM_ALLOW_MARKDOWN_IN_COMMENTS = True`  
 
-
+  
 ***jsMath***
 
 jsMath can be [downloaded](http://sourceforge.net/projects/jsmath/files/), along with the fonts and extra-fonts.
 However, a patched version 3.6e w/ fonts is available as part of this git repo, to save you some trouble.
+Also, the jsMath/easy/load.js file has be preconfigured, so you'll want that regardless.
 
 If you download a newer version  version, edit the tex2math.js plugin on line 175 (or, thereabouts):
 

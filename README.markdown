@@ -1,6 +1,7 @@
-***** OSQA jsMath Patch *****
+OSQA jsMath Patch
+=================
 
-Adding jsMath support to your [OSQA](http://www.osqa.net/).
+Adding [jsMath](http://www.math.union.edu/~dpvc/jsMath/) support to your [OSQA](http://www.osqa.net/).
 
 
 *** authors ***
@@ -40,7 +41,7 @@ Becomes:
 
 `(element.tagName && element.tagName.match(/^(script|noscript|style|textarea|pre)$/i));`
 
-Above are allowing jsMath to look for math in <code> tags.
+Above are allowing jsMath to look for math in `<code>` tags.
 This is for the backticks trick, to get around markdown.
 
 Move the entire jsMath/ folder into your skings js/ folder.

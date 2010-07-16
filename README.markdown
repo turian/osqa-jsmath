@@ -6,9 +6,9 @@ Adding [jsMath](http://www.math.union.edu/~dpvc/jsMath/) support to your [OSQA](
 
 *** authors ***
 
-This patch was coded by [Arlo Breault](http://thoughtherder.com/) <arlolra@gmail.com>
-Testing and organized by Joseph Turian
-Thanks to the people at [MathOverflow](http://mathoverflow.net/) for figuring most of this out and providing the code.
+This patch was coded by [Arlo Breault](http://thoughtherder.com/)  
+Testing and organized by Joseph Turian  
+Thanks to the people at [MathOverflow](http://mathoverflow.net/) for figuring most of this out and providing the code.  
 
 *** osqa ***
 
@@ -25,7 +25,7 @@ don't end up looking right.
 
 Also, I've added the following to the settings file. This is to allow jsMath to convert math in the comments.
 
-`FORM_ALLOW_MARKDOWN_IN_COMMENTS = True`
+`FORM_ALLOW_MARKDOWN_IN_COMMENTS = True`  
 
 
 ***jsMath***

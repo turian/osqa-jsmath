@@ -1,3 +1,14 @@
+***** OSQA jsMath Patch *****
+
+Adding jsMath support to your [OSQA](http://www.osqa.net/).
+
+
+*** authors ***
+
+This patch was coded by [Arlo Breault](http://thoughtherder.com/) <arlolra@gmail.com>
+Testing and organized by Joseph Turian
+Thanks to the people at [MathOverflow](http://mathoverflow.net/) for figuring most of this out and providing the code.
+
 *** osqa ***
 
 For some reason, python's implementation of markdown is different from original perl spec,
@@ -30,7 +41,7 @@ Becomes:
 `(element.tagName && element.tagName.match(/^(script|noscript|style|textarea|pre)$/i));`
 
 Above are allowing jsMath to look for math in <code> tags.
-This is for the backtick \` trick, to get around markdown.
+This is for the backticks trick, to get around markdown.
 
 Move the entire jsMath/ folder into your skings js/ folder.
 The provided patch to osqa assumes you are using the default skin.
